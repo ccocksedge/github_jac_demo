@@ -1,0 +1,130 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions:
+  - description: null
+    exitCodes: null
+    notificationOption: Operation Failure
+    notifyOnEarlyFinish: false
+    notifyOnLateFinish: false
+    notifyOnLateStart: false
+    notifyOnProjectedLate: false
+    status: Success
+    sysId: c93be5f432ee4df0b3f3c00b69b4f9ae
+    variableName: export_path
+    variableScope: Parent
+    variableValue: ${_responseJsonPath('$.path')}
+  snmpNotifications: []
+  systemOperations: []
+autoCleanup: false
+cpDuration: null
+cpDurationUnit: Minutes
+credentials: ops.admin
+credentialsVar: null
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_web_service
+firstRun: ''
+formData: []
+holdResources: false
+httpAuth: Basic
+httpHeaders:
+- name: Accept
+  value: application/json
+httpMethod: POST
+httpPayloadType: Raw
+httpVersion: '1.1'
+insecure: true
+lastRun: ''
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+mimeType: application/json
+name: TSTUAC_Backup
+notes: []
+opswiseGroups:
+- Automation_Ops
+outputConditionOperator: '='
+outputConditionStrategy: Match Any
+outputConditionValue: null
+outputPathExpression: null
+outputType: Text
+payload: null
+payloadScript: null
+payloadSource: Form
+protocol: HTTP(S)/REST
+resPriority: 10
+resolveNameImmediately: false
+responseProcessingType: Default Success Status Code Range
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+retryIndefinitely: false
+retryInterval: 60
+retryMaximum: 0
+retrySuppressFailure: false
+runCount: 0
+runTime: 0
+soapAction: null
+soapPayloadType: Body
+soapResponseOutput: Body/First Element
+soapVersion: '1.2'
+startHeld: false
+startHeldReason: null
+statusCodeRange: null
+summary: Bult Export UAC definitions
+sysId: b56ceedbd87c4e2aad9f8bfdba554ab7
+timeZonePref: -- System Default --
+timeout: null
+twDelayAmount: null
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount: null
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+type: taskWebService
+url: https://tst-uac:8443/uc/resources/serveroperation/bulkexport
+urlParameters: []
+userEstimatedDuration: null
+variables: []
+version: 1
+virtualResources: []
