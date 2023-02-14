@@ -1,0 +1,19 @@
+content: 'docker cp tst-uac:${export_path} C:\Docker\${ops_system_identifier}_Archive
+
+  rmdir /Q /S C:\Docker\${ops_system_identifier}_Archive\Archive
+
+
+
+  rename c:\Docker\${ops_system_identifier}_Archive\${_varSubstring(''export_path'',
+  ${__add(''${___varLastIndexOf(''export_path'', ''/'')}'', ''1'')})} Archive'
+description: null
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_script
+notes: []
+opswiseGroups: []
+resolveVariables: true
+retainSysIds: true
+scriptName: TSTUAC_Archive
+scriptType: Script
+sysId: 903ecc81ebf54be4bc99d084bcb5b9be
+version: 1
