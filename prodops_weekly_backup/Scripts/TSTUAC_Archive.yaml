@@ -6,7 +6,7 @@ content: 'docker cp tst-uac:${export_path} C:\Docker\${ops_system_identifier}_Ar
 
   rename c:\Docker\${ops_system_identifier}_Archive\${_varSubstring(''export_path'',
   ${__add(''${___varLastIndexOf(''export_path'', ''/'')}'', ''1'')})} Archive'
-description: null
+description: Archive BAckup Files
 exportReleaseLevel: 7.3.0.0
 exportTable: ops_script
 notes: []
